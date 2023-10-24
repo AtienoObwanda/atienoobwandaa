@@ -28,3 +28,9 @@ module.exports = {
   // orange:FE8D01
   // dark: 1F1D2B
   // white:
+
+
+  // fontFamily: {
+//     inter: ['Inter', 'sans-serif'],
+//     caveat: ['Caveat', 'cursive'],
+// },
