@@ -1,6 +1,8 @@
 // tailwind.config.js
 module.exports = {
-    content: [
+  mode: "jit",  
+  
+  content: [
     //   "./index.html",
     //   "./src/**/*.{js,jsx}",
     "./src/**/**/*.{js,ts,jsx,tsx,html,mdx}",
@@ -10,9 +12,19 @@ module.exports = {
     darkMode: 'class',
     theme: {
       extend: {
+        colors: {
+          orange: '#FE8D01',
+          lighterOrange:'#FFEBCB',
+          dark: '#1F1D2B',
+          white: '#FFFFFF',
+        },
        
       },
     },
     plugins: [],
   }
   
+
+  // orange:FE8D01
+  // dark: 1F1D2B
+  // white:

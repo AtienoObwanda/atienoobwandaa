@@ -12,7 +12,7 @@ import Contact from './Components/Contact'
 const App = () => {
   return (
 <>
-<div className="relative bg-gray-50 dark:bg-slate-900 w-screen h-screen pattern">
+<div className="relative bg-gray-50 dark:bg-slate-900 w-screen h-screen">
 
 <Nav/>
 <Hero/>
