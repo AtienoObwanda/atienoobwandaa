@@ -12,17 +12,19 @@ import Contact from './Components/Contact'
 const App = () => {
   return (
 <>
-<div className="relative bg-gray-50 dark:bg-slate-900 w-screen h-screen">
+<div className="relative bg-gray-50 dark:bg-slate-900 w-screen h-full overflow-x-none	overflow-y-none">
 
 <Nav/>
+<div className="main ml-[18em] pt-[10em]">
 <Hero/>
 <About/>
 <Skills/>
 <Projects/>
 <Experience/>
 <Education/>
-<Certification/>
+{/* <Certification/> */}
 <Contact/>
+</div>
 </div>
 </>
   )
