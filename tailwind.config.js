@@ -18,6 +18,20 @@ module.exports = {
           dark: '#1F1D2B',
           white: '#FFFFFF',
         },
+
+        animation: {
+          ["infinite-slider"]: "infiniteSlider 20s linear infinite",
+        },
+        // next
+        keyframes: {
+          infiniteSlider: {
+            "0%": { transform: "translateX(0)" },
+            "100%": {
+              transform: "translateX(calc(-100px * 5))",
+            },
+          },
+        },
+    // next
        
       },
     },

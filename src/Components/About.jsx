@@ -40,7 +40,7 @@ const About = () => {
                       <ReactPlayer 
                       light={
                       <img 
-                      src="https://cdn.hashnode.com/res/hashnode/image/upload/v1698059615277/23fdcc34-1635-4f9c-8309-8a30b1fc8b6d.webp?auto=compress,format&format=webp"
+                      src="https://res.cloudinary.com/dyiuol5sx/image/upload/v1658013940/personal/me_kxxno9.jpg"
                       alt='Poster' 
                       className="h-[240em] md:h-full sm:h-full object-cover rounded-lg w-full pt-2"
 
