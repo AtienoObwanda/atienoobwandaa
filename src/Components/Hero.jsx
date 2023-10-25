@@ -16,6 +16,11 @@ const Hero = () => {
        I'm passionate about solving day-to-day challenges through technology at the same time elevating people, and building community!
        </h6>
 
+      <button 
+       type="button" 
+       class="text-white bg-orange border-1 text-2xl rounded-full px-[1em] py-[1em] text-center mr-2 mt-[4em] hover:bg-transparent hover:border-[2px] border-orange hover:text-orange">
+        Let's Work Together
+      </button>
 
 
         </div>
