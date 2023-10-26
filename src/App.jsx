@@ -8,6 +8,7 @@ import Experience from './Components/Experience'
 import Education from './Components/Education'
 import Certification from './Components/Certification'
 import Contact from './Components/Contact'
+import Footer from './Layout/Footer'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
 <Education/>
 {/* <Certification/> */}
 <Contact/>
+<Footer/>
 </div>
 </div>
 </>

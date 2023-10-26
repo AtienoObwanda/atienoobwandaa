@@ -21,12 +21,12 @@ const Hero = () => {
 
       <button 
        type="button" 
-       className="text-white bg-orange border-1 text-2xl rounded-full px-[1em] py-[1em] text-center mr-2 mt-[4em] hover:bg-transparent hover:border-[2px] border-orange hover:text-orange">
+       className="text-white bg-orange border-1 text-2xl rounded-full px-[0.8em] py-[0.8em] text-center mr-2 mt-[4em] hover:bg-transparent hover:border-[2px] border-orange hover:text-orange">
         Let's Work Together
       </button>
 
       <a
-      href='../assets/resume/MillicentAtieno.pdf'
+      href='../src/assets/resume/MillicentAtieno.pdf'
       download='MillicentObwanda.pdf'
       target="_blank"
       >
