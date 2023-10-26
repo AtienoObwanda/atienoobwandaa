@@ -17,11 +17,9 @@ const GitHub = () => {
         username="AtienoObwanda"
         blockSize={15}
         blockMargin={5}
-        color="#FFEBCB"
         fontSize={16}
         style={{
-            '--color-calendar-graph-day-L1-bg': 'red',
-            '--color-calendar-axis-text': '#FFEBCB'
+            '--color-calendar-graph-day-L1-bg': 'green',
           }}
       />
 
