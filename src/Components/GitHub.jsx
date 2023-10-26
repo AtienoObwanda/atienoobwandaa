@@ -11,7 +11,7 @@ const GitHub = () => {
 
     </div>
 {/* Skill logos slider */}
-<div className="relative m-auto overflow-hidden mr-[12em] ml-[6em] text-dark dark:text-white">
+<div className="relative m-auto overflow-hidden mr-[10em] ml-[10em] text-dark dark:text-white">
       {/* GiHub */}
       <GitHubCalendar
         username="AtienoObwanda"
