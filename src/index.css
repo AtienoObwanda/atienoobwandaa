@@ -11,3 +11,20 @@
     .orange-icon {
         fill: #FE8D01; 
       }
+
+
+
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('/public/Font/GothamProRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NewYork';
+  src: url('/public/Font/NewYork.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

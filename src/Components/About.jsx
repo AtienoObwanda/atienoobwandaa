@@ -5,12 +5,12 @@ const About = () => {
   return (
     <div className="mt-[6em] mb-[6em] ">
 <div className=" ml-[-18em]">
-<h1 className='text-6xl text-center text-dark dark:text-white font-sans leading-normal mb-6'>About Me</h1>
+<h1 className='text-6xl text-center text-dark dark:text-white font-newyork leading-normal mb-2'>About Me</h1>
 
 </div>
 <div className="flex">
   <div className="w-1/2 p-[4em]">
-  <ul className='text-xl text-left	text-dark dark:text-white font-sans leading-normal	mt-[1.5em] list-outside	list-disc	'>
+  <ul className='text-xl text-left	text-dark dark:text-white font-gotham leading-normal	mt-[1.5em] list-outside	list-disc	'>
     <li className='mb-6'>
     As a seasoned Information Technology professional based in Nairobi, Kenya, I bring over four years of hands-on experience encompassing software development, technical support, and DevOps engineering. My expertise spans a wide array of technologies, including Python, JavaScript frameworks, React, Django, PostgreSQL, and proficiency in cloud platforms such as AWS, GCP, and Azure.
     </li>

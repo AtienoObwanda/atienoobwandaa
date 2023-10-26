@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <div className="mt-[6em] mb-[6em] ">
     <div className="ml-[-18em]">
-    <h1 className='text-6xl  text-center text-dark dark:text-white font-sans leading-normal'>Experience</h1>
+    <h1 className='text-6xl  text-center text-dark dark:text-white font-newyork leading-normal'>Experience</h1>
 
     </div>
 

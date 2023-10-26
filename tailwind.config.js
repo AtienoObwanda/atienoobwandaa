@@ -19,11 +19,22 @@ module.exports = {
           white: '#FFFFFF',
           // 1F1D2B
         },
-
+        // next
+        fontFamily: {
+          inter: ['Inter', 'sans-serif'],
+          caveat: ['Caveat', 'cursive'],
+          poppins: ["Poppins", "sans-serif"],
+          adelia: ["ADELIA", "cursive"],
+          gotham: ['Gotham', 'sans-serif'],
+          newyork: ['NewYork', 'sans-serif'],
+          // newyork:["New York", ]
+        },  
+        // next
         animation: {
           ["infinite-slider"]: "infiniteSlider 20s linear infinite",
         },
         // next
+
         keyframes: {
           infiniteSlider: {
             "0%": { transform: "translateX(0)" },

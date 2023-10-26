@@ -6,7 +6,7 @@ const GitHub = () => {
   return (
     <div className="mt-[6em] mb-[6em] ">
     <div className="ml-[-18em]">
-    <h1 className='text-6xl  text-center text-dark dark:text-white font-sans leading-normal  mb-8
+    <h1 className='text-6xl  text-center text-dark dark:text-white font-newyork leading-normal  mb-8
     '>GitHub Activity</h1>
 
     </div>

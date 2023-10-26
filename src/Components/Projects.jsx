@@ -112,51 +112,52 @@ const Projects = () => {
       gallery4: '#',
       video: '#',
       stack: ['Vue.js', 'Express.js']
-    },
-    {
-      name: 'Project 7',
-      description: 'Description of Project 6.',
-      duration: '100',
-      link: '#',
-      gitHub: '#',
-      caseStudy: '#',
-      poster: 'https://images.unsplash.com/photo-6',
-      gallery1: '#',
-      gallery2: '#',
-      gallery3: '#',
-      gallery4: '#',
-      video: '#',
-      stack: ['Vue.js', 'Express.js']
-    },
-    {
-      name: 'Project 8',
-      description: 'Description of Project 6.',
-      duration: '100',
-      link: '#',
-      gitHub: '#',
-      caseStudy: '#',
-      poster: 'https://images.unsplash.com/photo-6',
-      gallery1: '#',
-      gallery2: '#',
-      gallery3: '#',
-      gallery4: '#',
-      video: '#',
-      stack: ['Vue.js', 'Express.js']
     }
+    // ,
+    // {
+    //   name: 'Project 7',
+    //   description: 'Description of Project 6.',
+    //   duration: '100',
+    //   link: '#',
+    //   gitHub: '#',
+    //   caseStudy: '#',
+    //   poster: 'https://images.unsplash.com/photo-6',
+    //   gallery1: '#',
+    //   gallery2: '#',
+    //   gallery3: '#',
+    //   gallery4: '#',
+    //   video: '#',
+    //   stack: ['Vue.js', 'Express.js']
+    // },
+    // {
+    //   name: 'Project 8',
+    //   description: 'Description of Project 6.',
+    //   duration: '100',
+    //   link: '#',
+    //   gitHub: '#',
+    //   caseStudy: '#',
+    //   poster: 'https://images.unsplash.com/photo-6',
+    //   gallery1: '#',
+    //   gallery2: '#',
+    //   gallery3: '#',
+    //   gallery4: '#',
+    //   video: '#',
+    //   stack: ['Vue.js', 'Express.js']
+    // }
   
     ]
 
   return (
     <div className="mt-[6em] mb-[6em] ">
     <div className="ml-[-18em]">
-    <h1 className='text-6xl  text-center text-dark dark:text-white font-sans leading-normal mb-[1em]'>Notable Projects</h1>
+    <h1 className='text-6xl  text-center text-dark dark:text-white font-newyork leading-normal mb-[1em]'>Notable Projects</h1>
 
     </div>
-<div className="flex flex-wrap p-4 mr-4 ml-[-8em]">
+<div className="flex flex-wrap p-4  ml-[-2em]">
 
     {/* Projects */}
     {Projects.map((Project, index) => (
-    <Card className=" w-full max-w-[26rem] shadow-lg mr-6 rounded-lg m-5 ">
+    <Card className=" w-full max-w-[26rem] shadow-lg rounded-lg m-5 font-gotham">
       <CardHeader floated={false} color="blue-gray">
         <img
           src="https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
