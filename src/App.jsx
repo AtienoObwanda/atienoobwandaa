@@ -9,6 +9,7 @@ import Education from './Components/Education'
 import Certification from './Components/Certification'
 import Contact from './Components/Contact'
 import Footer from './Layout/Footer'
+import GitHub from './Components/GitHub'
 
 const App = () => {
   return (
@@ -22,8 +23,9 @@ const App = () => {
 <Skills/>
 <Projects/>
 <Experience/>
-<Education/>
+{/* <Education/> */}
 {/* <Certification/> */}
+<GitHub/>
 <Contact/>
 <Footer/>
 </div>
