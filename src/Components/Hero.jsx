@@ -1,4 +1,8 @@
 import React from 'react'
+import {BiSolidDownload} from 'react-icons/bi'
+import resume from "../assets/MillicentAtieno.pdf";
+
+// C:\Users\mobwanda\Desktop\CoDe\atienoobwandaa\src\assets\MillicentAtieno.pdf
 
 const Hero = () => {
   return (
@@ -18,16 +22,31 @@ const Hero = () => {
 
       <button 
        type="button" 
-       class="text-white bg-orange border-1 text-2xl rounded-full px-[1em] py-[1em] text-center mr-2 mt-[4em] hover:bg-transparent hover:border-[2px] border-orange hover:text-orange">
+       className="text-white bg-orange border-1 text-2xl rounded-full px-[1em] py-[1em] text-center mr-2 mt-[4em] hover:bg-transparent hover:border-[2px] border-orange hover:text-orange">
         Let's Work Together
       </button>
+
+      {/* <a
+      href='../assets/MillicentAtieno.pdf'
+      download={require('Millicent-Obwanda-Software-Developer.pdf')}
+      > */}
+        <button
+        type="button"
+        href={resume}
+        target="_blank"
+        className="ml-[2em] text-orange bg-transparent border-orange border-[2px]  text-2xl rounded-full px-[0.8em] py-[0.8em] text-center mt-[4em] hover:bg-orange hover:border-[2px] border-orange hover:text-white w-[8em]"
+        >
+          Resume <BiSolidDownload className='mt-[-1em]'/>
+        </button>
+      {/* </a> */}
+      
 
 
         </div>
 
         <div className="p-4 w-1/2 pl-[15em]">
         <img src="https://res.cloudinary.com/dyiuol5sx/image/upload/v1671113695/personal/me_t1hopq.jpg" alt="Millicent A Obwanda" 
-        class="rounded-full h-[24em] w-[24em] hover:border-[4px] border-orange"/>
+        className="rounded-full h-[24em] w-[24em] hover:border-[4px] border-orange"/>
 
         </div>
     </div>
