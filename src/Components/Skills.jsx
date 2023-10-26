@@ -3,14 +3,53 @@ import React from 'react'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { TbBrandNextjs } from "react-icons/tb"
+import { SiAmazonaws, SiGraphql, SiTypescript, SiJinja } from "react-icons/si"
+import {
+  DiReact,
+  DiNodejs,
+  DiMongodb,
+  DiPython,
+  DiMysql,
+} from "react-icons/di";
 
+
+// Tools
+import {
+  SiVisualstudiocode,
+  SiPostman,
+  SiAmazons3,
+  SiAmazondynamodb,
+  SiAwslambda,
+  SiAmazonapigateway,
+  SiTailwindcss,
+  SiAmazoncloudwatch,
+  SiGithub,
+} from "react-icons/si";
 
 
 
 
 
 const Skills = () => {
+  const STACK = [
+  // {icon:< />,
+  // text:''
+  // },
+  ]
 
+  const TOOLS = [
+    <SiVisualstudiocode className="w-[200px] h-[160px] p-[2em] grayscale transition duration-300 hover:grayscale-0 hover:text-orange hover:fill-orange" key={1}/>,
+    <SiPostman className="w-[200px] h-[160px] p-[2em] grayscale transition duration-300 hover:grayscale-0 hover:text-orange hover:fill-orange" key={2}/>,
+    <SiAmazons3 className="w-[200px] h-[160px] p-[2em] grayscale transition duration-300 hover:grayscale-0 hover:text-orange hover:fill-orange" key={3}/>,
+    <SiAmazondynamodb className="w-[200px] h-[160px] p-[2em] grayscale transition duration-300 hover:grayscale-0 hover:text-orange hover:fill-orange" key={4}/>,
+    // <SiAwslambda className="w-[200px] h-[160px] p-[2em] grayscale transition duration-300 hover:grayscale-0 hover:text-orange hover:fill-orange" key={5}/>,
+    // <SiAmazonapigateway className="w-[200px] h-[160px] p-[2em] grayscale transition duration-300 hover:grayscale-0 hover:text-orange hover:fill-orange" key={6}/>,
+    <SiTailwindcss className="w-[200px] h-[160px] p-[2em] grayscale transition duration-300 hover:grayscale-0 hover:text-orange hover:fill-orange" key={7}/>,
+    // <SiAmazoncloudwatch className="w-[200px] h-[160px] p-[2em] grayscale transition duration-300 hover:grayscale-0 hover:text-orange hover:fill-orange" key={8}/>,
+    <SiGithub className="w-[200px] h-[160px] p-[2em] grayscale transition duration-300 hover:grayscale-0 hover:text-orange hover:fill-orange" key={9}/>
+    
+  ]
   
   const LOGOS = [
     <img src="https://res.cloudinary.com/dyiuol5sx/image/upload/v1658895711/TechStacks/djrf_d2uezf.png" alt="" className="w-[200px] h-[160px] p-[2em] grayscale transition duration-300 hover:grayscale-0" key={1} />,
@@ -58,7 +97,7 @@ const Skills = () => {
     <div className="mt-[6em] mb-[6em] ">
       <div className="ml-[-18em]">
       <h1 className='text-6xl  text-center text-dark dark:text-white font-sans leading-normal  mb-8
-      '>Skills</h1>
+      '>Technologies</h1>
 
       </div>
 {/* Skill logos slider */}
@@ -72,6 +111,21 @@ const Skills = () => {
         </Slider>
       </div>
 
+      <div className="ml-[-18em] mt-[4em]">
+      <h1 className='text-6xl  text-center text-dark dark:text-white font-sans leading-normal  mb-8
+      '>Tools</h1>
+
+      </div>
+{/* Skill logos slider */}
+ <div className="relative m-auto overflow-hidden mr-[12em]">
+        <Slider {...settings}>
+          {TOOLS.map((logo, index) => (
+            <div className="slide flex items-center justify-center" key={index}>
+              {logo}
+            </div>
+          ))}
+        </Slider>
+      </div>
        
 
 </div>

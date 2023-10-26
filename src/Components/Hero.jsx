@@ -8,6 +8,7 @@ const Hero = () => {
     <div className="flex mb-[6em] ">
         <div className=" w-1/2">
        <h1 className='text-5xl text-dark dark:text-white font-sans leading-normal'>Hello,</h1>
+       {/*  🤙🏽 */}
        
        <h1 className='text-5xl	text-dark dark:text-white font-sans leading-normal	'>
         I am 
