@@ -1,8 +1,7 @@
 import React from 'react'
 import {BiSolidDownload} from 'react-icons/bi'
-import resume from "../assets/MillicentAtieno.pdf";
+// import resume from "../assets/MillicentAtieno.pdf";
 
-// C:\Users\mobwanda\Desktop\CoDe\atienoobwandaa\src\assets\MillicentAtieno.pdf
 
 const Hero = () => {
   return (
@@ -26,19 +25,18 @@ const Hero = () => {
         Let's Work Together
       </button>
 
-      {/* <a
-      href='../assets/MillicentAtieno.pdf'
-      download={require('Millicent-Obwanda-Software-Developer.pdf')}
-      > */}
+      <a
+      href='../assets/resume/MillicentAtieno.pdf'
+      download='MillicentObwanda.pdf'
+      target="_blank"
+      >
         <button
         type="button"
-        href={resume}
-        target="_blank"
         className="ml-[2em] text-orange bg-transparent border-orange border-[2px]  text-2xl rounded-full px-[0.8em] py-[0.8em] text-center mt-[4em] hover:bg-orange hover:border-[2px] border-orange hover:text-white w-[8em]"
         >
           Resume <BiSolidDownload className='mt-[-1em]'/>
         </button>
-      {/* </a> */}
+      </a>
       
 
 
