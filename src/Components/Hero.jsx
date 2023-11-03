@@ -18,7 +18,7 @@ const Hero = () => {
 {/* sm */}
 <div className="hidden sm:flex mr-8">
           <img src="https://res.cloudinary.com/dyiuol5sx/image/upload/v1671113695/personal/me_t1hopq.jpg" alt="Millicent A Obwanda" 
-            className="rounded-full h-[20em] w-[24em] hover:border-[4px] border-orange"/>
+            className="rounded-full h-[20em] w-[20em] hover:border-[4px] border-orange"/>
        </div>
 
        <h6 className='text-xl	text-dark dark:text-white font-gotham leading-normal	mt-[1.5em]'>
