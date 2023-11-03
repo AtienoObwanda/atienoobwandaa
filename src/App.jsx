@@ -17,12 +17,14 @@ const App = () => {
 <div className="relative bg-gray-50 dark:bg-slate-900 w-screen h-full overflow-x-none	overflow-y-none">
 
 <Nav/>
-<div className="main ml-[18em] pt-[10em]">
+<div className="ml-[18em] pt-[10em] md:ml-[120px]">
 <Hero/>
-<About/>
-<Skills/>
-<Projects/>
-<Experience/>
+{/* <About/> */}
+{/* <Skills/> */}
+{/* <Projects/> */}
+{/* <Experience/> */}
+
+
 {/* <Education/> */}
 {/* <Certification/> */}
 <GitHub/>

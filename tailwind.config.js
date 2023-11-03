@@ -17,7 +17,18 @@ module.exports = {
           lighterOrange:'#FFEBCB',
           dark: '#0F172A',
           white: '#FFFFFF',
+          light:'',
           // 1F1D2B
+        },
+        screens:{
+          md: { max: "1050px" }, 
+          sm: { max: "550px" },
+          xs: {max:"475px"},
+          // sm: '640px',
+          // md: '768px',
+          // lg: '1024px',
+          // xl: '1280px',
+          // 2xl: '1536px',
         },
         // next
         fontFamily: {
@@ -44,6 +55,7 @@ module.exports = {
           },
         },
     // next
+
        
       },
     },
