@@ -5,7 +5,7 @@ import GitHubCalendar from "react-github-calendar";
 const GitHub = () => {
   return (
     <div className="mt-[6em] mb-[6em] ">
-    <div className="ml-[-18em]">
+    <div className="ml-[-18em]  sm:ml-[-0.1em]">
     <h1 className='text-6xl  text-center text-dark dark:text-white font-newyork leading-normal  mb-8
     '>GitHub Activity</h1>
 

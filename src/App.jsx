@@ -19,10 +19,11 @@ const App = () => {
 <Nav/>
 <div className="ml-[18em] pt-[10em] md:ml-[120px]">
 <Hero/>
-{/* <About/> */}
+<About/>
 {/* <Skills/> */}
-{/* <Projects/> */}
-{/* <Experience/> */}
+
+<Projects/>
+<Experience/>
 
 
 {/* <Education/> */}
