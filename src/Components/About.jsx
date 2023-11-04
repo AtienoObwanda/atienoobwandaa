@@ -4,8 +4,8 @@ import ReactPlayer from 'react-player'
 const About = () => {
   return (
     <div className="mt-[6em] mb-[6em] ">
-<div className=" ml-[-18em] sm:ml-[-0.1em]">
-<h1 className='text-6xl text-center text-dark dark:text-white font-newyork leading-normal mb-2'>About Me</h1>
+<div className=" ml-[-18em] sm:ml-[-6em]">
+<h1 className='text-6xl text-center text-dark dark:text-white font-newyork leading-normal mb-2 sm:text-4xl'>About Me</h1>
 
 </div>
 <div className="flex flex-row">
