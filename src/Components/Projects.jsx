@@ -150,7 +150,7 @@ const Projects = () => {
   return (
     <div className="mt-[6em] mb-[6em] ">
     <div className="ml-[-18em]  sm:ml-[-0.1em]">
-    <h1 className='text-6xl  text-center text-dark dark:text-white font-newyork leading-normal mb-[1em]'>Notable Projects</h1>
+    <h1 className='text-6xl  text-center text-dark dark:text-white font-newyork leading-normal mb-[1em] sm:text-4xl'>Notable Projects</h1>
 
     </div>
 <div className="flex flex-wrap p-4  ml-[-2em]">

@@ -95,13 +95,12 @@ const Skills = () => {
 // Rendering Content:
   return (
     <div className="mt-[6em] mb-[6em] ">
-      <div className="ml-[-18em]  sm:ml-[-0.1em]">
-      <h1 className='text-6xl  text-center text-dark dark:text-white font-newyork leading-normal  mb-8
-      '>Technologies & Tools</h1>
+      <div className="ml-[-18em] md:ml-[2em] sm:ml-[0.1em]">
+      <h1 className='text-6xl  text-center text-dark dark:text-white font-newyork leading-normal  mb-8 sm:text-4xl'>Technologies & Tools</h1>
 
       </div>
 {/* Skill logos slider */}
- <div className="relative m-auto overflow-hidden mr-[12em]">
+ <div className="sm:hidden relative m-auto overflow-hidden mr-[12em] md:mt-[1em] md:mr-[0.5em] sm:mt-[-2em]">
         <Slider {...settings}>
           {LOGOS.map((logo, index) => (
             <div className="slide flex items-center justify-center" key={index}>
@@ -111,13 +110,8 @@ const Skills = () => {
         </Slider>
       </div>
 
-      {/* <div className="ml-[-18em] mt-[4em]">
-      <h1 className='text-6xl  text-center text-dark dark:text-white font-newyork leading-normal  mb-8
-      '>Tools</h1>
-
-      </div> */}
 {/* Skill logos slider */}
- <div className="relative m-auto overflow-hidden mr-[12em]">
+ <div className="sm:hidden relative m-auto overflow-hidden mr-[12em] md:mt-[0.5em] md:mr-[0.5em]">
         <Slider {...settings}>
           {TOOLS.map((logo, index) => (
             <div className="slide flex items-center justify-center" key={index}>
@@ -126,6 +120,30 @@ const Skills = () => {
           ))}
         </Slider>
       </div>
+
+{/* small */}
+<div className="hidden sm:flex">
+<div className="relative m-auto overflow-hidden mt-[1em]">
+        <Slider {...settings}>
+          {LOGOS.map((logo, index) => (
+            <div className="slide flex items-center justify-center" key={index}>
+              {logo}
+            </div>
+          ))}
+        </Slider>
+      </div>
+
+{/* Skill logos slider */}
+ <div className="relative m-auto overflow-hidden">
+        <Slider {...settings}>
+          {TOOLS.map((logo, index) => (
+            <div className="slide flex items-center justify-center" key={index}>
+              {logo}
+            </div>
+          ))}
+        </Slider>
+      </div>
+</div>
        
 
 </div>

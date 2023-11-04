@@ -2,7 +2,7 @@ import React from 'react'
 
 const Experience = () => {
   return (
-    <div className="mt-[6em] mb-[6em] sm:mt-[0em] ">
+    <div className="mt-[6em] mb-[6em]">
     <div className="ml-[-18em]  sm:ml-[-6em]">
     <h1 className='text-6xl  text-center text-dark dark:text-white font-newyork leading-normal sm:text-4xl'>Experience</h1>
 

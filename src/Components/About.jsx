@@ -67,7 +67,7 @@ const About = () => {
                       <img 
                       src="https://res.cloudinary.com/dyiuol5sx/image/upload/v1658013940/personal/me_kxxno9.jpg"
                       alt='Poster' 
-                      className="h-[240em] md:h-full sm:h-full object-cover rounded-lg w-full pt-2"
+                      className="h-[40em] md:h-full sm:h-full object-cover rounded-lg w-full pt-2"
 
                       />}
                       url="https://www.youtube.com/watch?v=C_rjNGjckUc&ab_channel=LimoblazeVEVO"
