@@ -9,7 +9,8 @@ const About = () => {
 
 </div>
 <div className="flex flex-row">
-  <div className="w-1/2 p-[4em] md:w-full sm:p-2">
+<div className="w-full p-[4em] md:w-full sm:p-2">
+  {/* <div className="w-1/2 p-[4em] md:w-full sm:p-2"> */}
   <ul className='text-xl text-left	text-dark dark:text-white font-gotham leading-normal	mt-[1.5em] list-outside	list-disc	sm:text-sm'>
     <li className='mb-6 mr-2'>
     As a seasoned Information Technology professional based in Nairobi, Kenya, I bring over four years of hands-on experience encompassing software development, technical support, and DevOps engineering. My expertise spans a wide array of technologies, including Python, JavaScript frameworks, React, Django, PostgreSQL, and proficiency in cloud platforms such as AWS, GCP, and Azure.
@@ -20,7 +21,7 @@ const About = () => {
     </li>
     <br></br>
 
-<div className="hidden md:flex mr-8 w-full">
+{/* <div className="hidden md:flex mr-8 w-full">
 <ReactPlayer 
                       light={
                       <img 
@@ -41,7 +42,7 @@ const About = () => {
                         }
                       }}
                       />
-</div>
+</div> */}
 
 <br></br>
 <li className='mb-6 mr-2'>
@@ -61,7 +62,7 @@ const About = () => {
 </div>
 
 
-<div className="md:hidden relative w-1/2 p-[6em]">
+{/* <div className="md:hidden relative w-1/2 p-[6em]">
                       <ReactPlayer 
                       light={
                       <img 
@@ -83,7 +84,7 @@ const About = () => {
                       }}
                       />
 
-  </div>
+  </div> */}
 </div>
     
     </div>
