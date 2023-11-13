@@ -28,7 +28,7 @@ const App = () => {
 {/* <Education/> */}
 {/* <Certification/> */}
 <GitHub/>
-<Contact/>
+{/* <Contact/> */}
 <Footer/>
 </div>
 </div>

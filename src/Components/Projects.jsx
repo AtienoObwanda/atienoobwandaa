@@ -22,13 +22,13 @@ const Projects = () => {
 
   const Projects = [
     {
-      name:'Artspace',
-      description:'Enter a freshly updated and thoughtfully furnished peaceful home  surrounded by ancient trees, stone walls, and open meadows.',
+      name:'Django Gallery Web Application',
+      description:'ArtSpace Is a gallery web application created using Django.The web application has a collection of images from different categories and locations... As the site admin, you can login, to your account and upload images, categorize them differently, also add their location etc.',
       duration:'120',
       link:'#',
-      gitHub:'#',
+      gitHub:'https://github.com/AtienoObwanda/artSpace',
       caseStudy:'#',
-      poster:'https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+      poster:'https://res.cloudinary.com/dyiuol5sx/image/upload/v1655264803/projectPics/hero_ryldwi.png',
       gallery1:'#',
       gallery2:'#',
       gellery3:'#',
@@ -39,13 +39,13 @@ const Projects = () => {
     },
 
     {
-      name: 'Project 2',
-      description: 'Description of Project 2.',
-      duration: '90',
+      name: 'Mich(Award)',
+      description: "Mich(Award) is a web application that allows users to upload their projects, and have other users rate them. They also get to rate other users projects. All they have to do is sign up, and login to their accounts. This project has been created using Django and it's inspiration has been drawn from the Awwards.com offical website",
+      duration: '140',
       link: '#',
-      gitHub: '#',
+      gitHub: 'https://github.com/AtienoObwanda/Mich.',
       caseStudy: '#',
-      poster: 'https://images.unsplash.com/photo-2',
+      poster: 'https://res.cloudinary.com/dyiuol5sx/image/upload/v1655269982/projectPics/project_lw6zb2.png',
       gallery1: '#',
       gallery2: '#',
       gallery3: '#',
@@ -54,58 +54,13 @@ const Projects = () => {
       stack: ['Angular', 'Node.js']
     },
     {
-      name: 'Project 3',
-      description: 'Description of Project 3.',
+      name: 'Instagram Clone',
+      description: 'Instagram clone using Django framework is a simple page where users could interact with his photos, and other users.',
       duration: '150',
       link: '#',
-      gitHub: '#',
+      gitHub: 'https://github.com/AtienoObwanda/gramClone',
       caseStudy: '#',
-      poster: 'https://images.unsplash.com/photo-3',
-      gallery1: '#',
-      gallery2: '#',
-      gallery3: '#',
-      gallery4: '#',
-      video: '#',
-      stack: ['Vue.js', 'Express.js']
-    },
-    {
-      name: 'Project 4',
-      description: 'Description of Project 4.',
-      duration: '180',
-      link: '#',
-      gitHub: '#',
-      caseStudy: '#',
-      poster: 'https://images.unsplash.com/photo-4',
-      gallery1: '#',
-      gallery2: '#',
-      gallery3: '#',
-      gallery4: '#',
-      video: '#',
-      stack: ['React', 'Node.js']
-    },
-    {
-      name: 'Project 5',
-      description: 'Description of Project 5.',
-      duration: '120',
-      link: '#',
-      gitHub: '#',
-      caseStudy: '#',
-      poster: 'https://images.unsplash.com/photo-5',
-      gallery1: '#',
-      gallery2: '#',
-      gallery3: '#',
-      gallery4: '#',
-      video: '#',
-      stack: ['Angular', 'Django']
-    },
-    {
-      name: 'Project 6',
-      description: 'Description of Project 6.',
-      duration: '100',
-      link: '#',
-      gitHub: '#',
-      caseStudy: '#',
-      poster: 'https://images.unsplash.com/photo-6',
+      poster: 'https://res.cloudinary.com/dyiuol5sx/image/upload/v1655264774/projectPics/landing_gvkioh.png',
       gallery1: '#',
       gallery2: '#',
       gallery3: '#',
@@ -115,22 +70,37 @@ const Projects = () => {
     }
     // ,
     // {
-    //   name: 'Project 7',
-    //   description: 'Description of Project 6.',
-    //   duration: '100',
+    //   name: 'Project 4',
+    //   description: 'Description of Project 4.',
+    //   duration: '180',
     //   link: '#',
     //   gitHub: '#',
     //   caseStudy: '#',
-    //   poster: 'https://images.unsplash.com/photo-6',
+    //   poster: 'https://images.unsplash.com/photo-4',
     //   gallery1: '#',
     //   gallery2: '#',
     //   gallery3: '#',
     //   gallery4: '#',
     //   video: '#',
-    //   stack: ['Vue.js', 'Express.js']
+    //   stack: ['React', 'Node.js']
     // },
     // {
-    //   name: 'Project 8',
+    //   name: 'Project 5',
+    //   description: 'Description of Project 5.',
+    //   duration: '120',
+    //   link: '#',
+    //   gitHub: '#',
+    //   caseStudy: '#',
+    //   poster: 'https://images.unsplash.com/photo-5',
+    //   gallery1: '#',
+    //   gallery2: '#',
+    //   gallery3: '#',
+    //   gallery4: '#',
+    //   video: '#',
+    //   stack: ['Angular', 'Django']
+    // },
+    // {
+    //   name: 'Project 6',
     //   description: 'Description of Project 6.',
     //   duration: '100',
     //   link: '#',
@@ -144,7 +114,7 @@ const Projects = () => {
     //   video: '#',
     //   stack: ['Vue.js', 'Express.js']
     // }
-  
+    
     ]
 
   return (
@@ -160,8 +130,9 @@ const Projects = () => {
     <Card className=" w-full max-w-[26rem] shadow-lg rounded-lg m-5 font-gotham">
       <CardHeader floated={false} color="blue-gray">
         <img
-          src="https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          src={Project.poster}
           alt="Project Poster"
+          className='h-[15em]'
         />
         <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60 " />
       </CardHeader>
@@ -182,22 +153,34 @@ const Projects = () => {
         <Typography color="gray">
           {Project.description}
         </Typography>
-        <div className="group mt-8 inline-flex flex-wrap items-center gap-3">
-          <Tooltip content="Live Link">
+        {/* Tools and technologies */}
+        {/* <div className=" mt-8 inline-flex flex-wrap items-center gap-3">
+        <Tooltip content=" GitHub">
+          <FaGithubSquare/> 
+          </Tooltip>
+        
+          </div> */}
+          <br></br>
+
+        <div className="group mt-2 inline-flex flex-wrap items-center gap-3">
+          {/* <Tooltip content="Live Link">
             <span className="w-[8em] flex gap-4 cursor-pointer rounded-full border border-gray-900/5 bg-gray-900/5 p-3 text-gray-900 transition-colors hover:border-gray-900/10 hover:bg-gray-900/10 hover:!opacity-100 group-hover:opacity-70">
             <TbWorldWww/> Live Link
             </span>
-          </Tooltip>
+          </Tooltip> */}
+          
           <Tooltip content=" GitHub">
-            <span className="w-[6em] flex gap-4 cursor-pointer rounded-full border border-gray-900/5 bg-gray-900/5 p-3 text-gray-900 transition-colors hover:border-gray-900/10 hover:bg-gray-900/10 hover:!opacity-100 group-hover:opacity-70">
-             <FaGithubSquare/> GitHub
+           <a href={Project.gitHub}>
+           <span className="w-[7em] flex items-center text-center pl-6 gap-4 cursor-pointer rounded-full border border-gray-900/5 bg-gray-900/5 p-2 text-gray-900 transition-colors hover:border-gray-900/10 hover:bg-gray-900/10 hover:!opacity-100 group-hover:opacity-70">
+             GITHUB 
             </span>
+           </a>
           </Tooltip>
-          <Tooltip content="Case Study">
+          {/* <Tooltip content="Case Study">
             <span className="w-[8.5em] flex gap-4 cursor-pointer rounded-full border border-gray-900/5 bg-gray-900/5 p-3 text-gray-900 transition-colors hover:border-gray-900/10 hover:bg-gray-900/10 hover:!opacity-100 group-hover:opacity-70">
             <TfiStatsUp/> Case Study
             </span>
-          </Tooltip>
+          </Tooltip> */}
         </div>
       </CardBody>
       <CardFooter className="pt-3">
