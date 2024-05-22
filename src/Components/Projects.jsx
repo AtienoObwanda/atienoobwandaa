@@ -82,7 +82,7 @@ const Projects = () => {
 
     {/* Projects */}
     {Projects.map((Project, index) => (
-    <Card className=" w-full w-[26rem] shadow-lg rounded-lg m-5 font-gotham md:w-full">
+    <Card className=" w-full w-1/4 shadow-lg rounded-lg m-5 font-gotham md:w-full">
       <CardHeader floated={false} color="blue-gray">
         <img
           src={Project.poster}

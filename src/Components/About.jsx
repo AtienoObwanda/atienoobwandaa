@@ -135,17 +135,16 @@ const About = () => {
 <div className="flex flex-row md:flex-row">
   <span className='p-2'>Other: </span>
   <div className="flex flex-row md:flex-row">
-    <div className="ml-2 p-2 flex justify-center mb-6 md:mb-0"> 
-   <span className="text-sm p-2 text-white bg-orange rounded-full"> RESTful APIs
+    <div className="ml-2 p-2 flex justify-center mb-6 md:mb-0 sm:flex-col"> 
+   <span className="text-sm p-2 text-white bg-orange rounded-full sm:mt-2"> RESTful APIs
     </span> 
-    <span className="ml-2 text-sm p-2 text-white bg-orange rounded-full"> Microservices Architecture
+    <span className="ml-2 text-sm p-2 text-white bg-orange rounded-full sm:mt-4"> Microservices Architecture
     </span>
-   
-    <span className="ml-2 text-sm p-2 text-white bg-orange rounded-full"> Agile Development
+    <span className="ml-2 text-sm p-2 text-white bg-orange rounded-full sm:mt-4"> Agile Development
     </span>
-    <span className="ml-2 text-sm p-2 text-white bg-orange rounded-full"> GitHub
+    <span className="ml-2 text-sm p-2 text-white bg-orange rounded-full sm:mt-4"> GitHub
     </span>
-    <span className="ml-2 text-sm p-2 text-white bg-orange rounded-full"> GitLab
+    <span className="ml-2 text-sm p-2 text-white bg-orange rounded-full sm:mt-4"> GitLab
     </span>
     
     </div>
