@@ -53,7 +53,7 @@ const About = () => {
         />
       </div>
 
-      <div className="w-1/2 md:pl-12 text-left md:text-left text-xl	text-dark dark:text-white font-gotham leading-normal	mt-[1.5em] md:w-full	sm:text-sm">
+      <div className="w-1/2 text-left md:text-left text-xl	text-dark dark:text-white font-gotham leading-normal	mt-[1.5em] md:w-full	sm:text-sm">
         <p className="mb-4">
         I'm Millicent Obwanda, a software engineer with a strong focus on customer satisfaction and community building. With expertise in Python, JavaScript frameworks, cloud platforms, and automation tools, I thrive on creating robust software solutions.
         </p>

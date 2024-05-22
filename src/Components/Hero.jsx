@@ -5,31 +5,26 @@ import {BiSolidDownload} from 'react-icons/bi'
 
 const Hero = () => {
   return (
-    <div className="flex flex-row mb-[6em] sm:flex-col md:pl-[4em]">
-        <div className="w-1/2 sm:w-full">
+    <div className="flex flex-row mb-[6em] md:flex-col">
+        <div className="w-1/2 md:w-full">
           <h1 className='text-4xl text-dark dark:text-white font-gotham leading-normal md:text-2xl md:w-full'>Hi 🤙🏽,</h1>
             
-          
           <h1 className='text-4xl	text-dark dark:text-white font-gotham leading-normal mb-2 md:text-2xl md:w-full sm:w-full'>
             I'm 
-            <span className="text-orange font-newyork font-bold"> M i l l i c e n t !</span> <br></br>
-
-            {/*         <span className='font-newyork'>a Software Developer</span> */}
+            <span className="text-orange font-newyork font-bold"> M i l l i c e n t,</span> Nice to E-Meet You! <br></br>
 
           </h1>
             {/* sm */}
             <div className="hidden md:flex mr-8 md:mt-8">
                       <img src="https://res.cloudinary.com/dyiuol5sx/image/upload/v1671113695/personal/me_t1hopq.jpg" alt="Millicent A Obwanda" 
-                        className="rounded-full h-auto w-auto hover:border-[4px] border-orange"/>
+                        className="rounded-full h-1/2 w-1/2 hover:border-[4px] border-orange"/>
                   </div>
             {/* text */}
-              <div className="md:w-full">
-              <h6 className='text-xl	text-dark dark:text-white font-gotham leading-normal mt-[1.5em] md:w-full'>
+              <h6 className='text-xl	text-dark dark:text-white font-gotham leading-normal mt-[1.5em] md:pr-2'>
               I am a customer-centric software engineer dedicated to solving day-to-day challenges through technology. 
               My passion lies in elevating people and building communities. Explore to learn more about my work, skills, 
               and how we can collaborate to make a positive impact.
               </h6>
-              </div>
 
           
           
