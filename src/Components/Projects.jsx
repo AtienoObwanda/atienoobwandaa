@@ -67,67 +67,22 @@ const Projects = () => {
       gallery4: '#',
       video: '#',
       stack: ['Vue.js', 'Express.js']
-    }
-    // ,
-    // {
-    //   name: 'Project 4',
-    //   description: 'Description of Project 4.',
-    //   duration: '180',
-    //   link: '#',
-    //   gitHub: '#',
-    //   caseStudy: '#',
-    //   poster: 'https://images.unsplash.com/photo-4',
-    //   gallery1: '#',
-    //   gallery2: '#',
-    //   gallery3: '#',
-    //   gallery4: '#',
-    //   video: '#',
-    //   stack: ['React', 'Node.js']
-    // },
-    // {
-    //   name: 'Project 5',
-    //   description: 'Description of Project 5.',
-    //   duration: '120',
-    //   link: '#',
-    //   gitHub: '#',
-    //   caseStudy: '#',
-    //   poster: 'https://images.unsplash.com/photo-5',
-    //   gallery1: '#',
-    //   gallery2: '#',
-    //   gallery3: '#',
-    //   gallery4: '#',
-    //   video: '#',
-    //   stack: ['Angular', 'Django']
-    // },
-    // {
-    //   name: 'Project 6',
-    //   description: 'Description of Project 6.',
-    //   duration: '100',
-    //   link: '#',
-    //   gitHub: '#',
-    //   caseStudy: '#',
-    //   poster: 'https://images.unsplash.com/photo-6',
-    //   gallery1: '#',
-    //   gallery2: '#',
-    //   gallery3: '#',
-    //   gallery4: '#',
-    //   video: '#',
-    //   stack: ['Vue.js', 'Express.js']
-    // }
+    },
+    
     
     ]
 
   return (
     <div className="mt-[6em] mb-[6em] ">
     <div className="ml-[-18em]  sm:ml-[-0.1em]">
-    <h1 className='text-6xl  text-center text-dark dark:text-white font-newyork leading-normal mb-[1em] sm:text-4xl'>Notable Projects</h1>
+    <h1 className='text-6xl  text-center text-dark dark:text-white font-newyork leading-normal mb-[1em] sm:text-4xl'>Highlighted Projects</h1>
 
     </div>
 <div className="flex flex-wrap p-4  ml-[-2em]">
 
     {/* Projects */}
     {Projects.map((Project, index) => (
-    <Card className=" w-full max-w-[26rem] shadow-lg rounded-lg m-5 font-gotham">
+    <Card className=" w-full w-[26rem] shadow-lg rounded-lg m-5 font-gotham md:w-full">
       <CardHeader floated={false} color="blue-gray">
         <img
           src={Project.poster}
@@ -154,20 +109,10 @@ const Projects = () => {
           {Project.description}
         </Typography>
         {/* Tools and technologies */}
-        {/* <div className=" mt-8 inline-flex flex-wrap items-center gap-3">
-        <Tooltip content=" GitHub">
-          <FaGithubSquare/> 
-          </Tooltip>
-        
-          </div> */}
           <br></br>
 
         <div className="group mt-2 inline-flex flex-wrap items-center gap-3">
-          {/* <Tooltip content="Live Link">
-            <span className="w-[8em] flex gap-4 cursor-pointer rounded-full border border-gray-900/5 bg-gray-900/5 p-3 text-gray-900 transition-colors hover:border-gray-900/10 hover:bg-gray-900/10 hover:!opacity-100 group-hover:opacity-70">
-            <TbWorldWww/> Live Link
-            </span>
-          </Tooltip> */}
+          
           
           <Tooltip content=" GitHub">
            <a href={Project.gitHub}>
@@ -176,17 +121,10 @@ const Projects = () => {
             </span>
            </a>
           </Tooltip>
-          {/* <Tooltip content="Case Study">
-            <span className="w-[8.5em] flex gap-4 cursor-pointer rounded-full border border-gray-900/5 bg-gray-900/5 p-3 text-gray-900 transition-colors hover:border-gray-900/10 hover:bg-gray-900/10 hover:!opacity-100 group-hover:opacity-70">
-            <TfiStatsUp/> Case Study
-            </span>
-          </Tooltip> */}
+    
         </div>
       </CardBody>
       <CardFooter className="pt-3">
-        {/* <Button size="lg" fullWidth={true}>
-          Case Study
-        </Button> */}
       </CardFooter>
       </Card>
     ))}
