@@ -10,7 +10,7 @@ import Blogs from './Components/Blog'
 const App = () => {
   return (
 <>
-<div className="relative bg-gray-50 dark:bg-slate-900 w-screen h-full overflow-x-hidden overflow-y-hidden md:w-full">
+<div className="relative bg-gray-50 dark:bg-slate-900 w-screen h-full md:w-full">
 
 <Nav/>
 <div className="ml-[18em] pt-[10em] md:ml-[120px]">
