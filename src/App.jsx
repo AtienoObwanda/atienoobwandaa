@@ -14,7 +14,7 @@ import GitHub from './Components/GitHub'
 const App = () => {
   return (
 <>
-<div className="relative bg-gray-50 dark:bg-slate-900 w-screen h-full overflow-x-none	overflow-y-none">
+<div className="relative bg-gray-50 dark:bg-slate-900 w-screen h-full overflow-x-none	overflow-y-none md:w-full">
 
 <Nav/>
 <div className="ml-[18em] pt-[10em] md:ml-[120px]">
@@ -22,7 +22,7 @@ const App = () => {
 <About/>
 {/* <Skills/> */}
 <Projects/>
-<Experience/>
+{/* <Experience/> */}
 
 
 {/* <Education/> */}
