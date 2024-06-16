@@ -8,41 +8,6 @@ const About = () => {
 <h1 className='text-6xl text-center text-dark dark:text-white font-newyork leading-normal mb-2 sm:text-4xl'>Abit About Me</h1>
 
 </div>
-{/* <div className="flex flex-row">
-<div className="w-full p-[4em] md:w-full sm:p-2">
-  <ul className='text-xl text-left	text-dark dark:text-white font-gotham leading-normal	mt-[1.5em] list-outside	list-disc	sm:text-sm'>
-    <li className='mb-6 mr-2'>
-    As a seasoned Information Technology professional based in Nairobi, Kenya, I bring over four years of hands-on experience encompassing software development, technical support, and DevOps engineering. My expertise spans a wide array of technologies, including Python, JavaScript frameworks, React, Django, PostgreSQL, and proficiency in cloud platforms such as AWS, GCP, and Azure.
-    </li>
-
-    <li className='mb-6 mr-2'>
-    Throughout my career, I've excelled in designing and implementing robust software solutions, consistently delivering high-quality code, and contributing to successful project outcomes. I've achieved a commendable 95% client satisfaction rate, demonstrating my ability to effectively troubleshoot and resolve complex technical issues.
-    </li>
-    <br></br>
-
-
-<br></br>
-<li className='mb-6 mr-2'>
-    In my DevOps role, I've demonstrated expertise in ensuring the reliability, availability, and performance of critical infrastructure and applications. Automation is at the core of my approach, allowing me to streamline processes, reduce manual workload, and enhance operational efficiency.
-    </li>
-
-    <li className='mb-6 mr-2'>
-    I'm deeply passionate about open-source principles and firmly believe in the transformative power of technology to effect positive societal change. I'm dedicated to documenting technologies and best practices, contributing to a culture of knowledge sharing and community growth.
-    </li>
-
-    <li className='mb-6 mr-2'>
-    Looking ahead, I'm eager to leverage my skills and experiences to drive innovation and make meaningful contributions to forward-thinking organizations. I'm particularly drawn to opportunities that align with my commitment to leveraging technology for positive impact.
-    </li>
-  </ul>
-
-
-</div>
-
-
-<div className="md:hidden relative w-1/2 p-[6em]">
-
-  </div>
-</div> */}
 
 <div className="flex flex-row md:flex-col p-6 md:p-12 h-[70em] md:h-auto">
       <div className="w-1/2 flex justify-center md:justify-start mb-6 md:mb-0 md:w-full">

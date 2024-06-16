@@ -1,5 +1,6 @@
 import React from 'react'
 import {BiSolidDownload} from 'react-icons/bi'
+import TypingAnimation from "../magicUi/typing"
 // import resume from "../assets/MillicentAtieno.pdf";
 
 
@@ -7,12 +8,15 @@ const Hero = () => {
   return (
     <div className="flex flex-row mb-[6em] md:flex-col">
         <div className="w-1/2 md:w-full">
-          <h1 className='text-4xl text-dark dark:text-white font-gotham leading-normal md:text-2xl md:w-full'>Hi 🤙🏽,</h1>
-            
+          <h1 className='text-4xl text-dark dark:text-white font-gotham leading-normal md:text-2xl md:w-full'>
+          <TypingAnimation
+                text="Hello, Nice to e-meet you!"
+              />
+            </h1>
           <h1 className='text-4xl	text-dark dark:text-white font-gotham leading-normal mb-2 md:text-2xl md:w-full sm:w-full'>
-            I'm 
-            <span className="text-orange font-newyork font-bold"> M i l l i c e n t,</span> Nice to E-Meet You! <br></br>
-
+          My name   
+            <span className="text-orange ml-2">Millicent A. Obwanda...</span>
+              <br></br>
           </h1>
             {/* sm */}
             <div className="hidden md:flex mr-8 md:mt-8">
@@ -21,9 +25,9 @@ const Hero = () => {
                   </div>
             {/* text */}
               <h6 className='text-xl	text-dark dark:text-white font-gotham leading-normal mt-[1.5em] md:pr-2'>
-              I am a customer-centric software engineer dedicated to solving day-to-day challenges through technology. 
+              I am a client-centric software engineer dedicated to solving day-to-day challenges through technology. 
               My passion lies in elevating people and building communities. Explore to learn more about my work, skills, 
-              and how we can collaborate to make a positive impact.
+              and how we can collaborate to make a positive  impact.
               </h6>
 
           
@@ -35,12 +39,20 @@ const Hero = () => {
               >
               <button 
                 type="button" 
-                className="text-white font-gotham bg-orange border-1 text-2xl rounded-full px-[4em] py-[2em] text-center mr-2 mt-[4em] hover:bg-transparent hover:border-[2px] border-orange hover:text-orange md:btn-small text-sm">
+                className="text-orange font-gotham border-1 text-2xl rounded-full px-[4em] py-[1em] text-center mr-2 mt-[4em] bg-transparent border-[2px] border-orange hover:text-orange md:btn-small text-sm">
                   Let's Work Together
                 </button>
 
+
             </a>
+    {/* 
     
+    <ShimmerButton className="rounded-full shadow-2xl pt-4 hover:bg-transparent border-[1px] border-orange hover:text-orange">
+                <span className=" text-center text-sm font-medium leading-none tracking-tight text-orange dark:from-orange dark:to-slate-900/10 lg:text-lg ">
+                Let's Work Together
+                </span>
+              </ShimmerButton>
+    */}
       
       </div>
       

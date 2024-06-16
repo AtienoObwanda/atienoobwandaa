@@ -24,11 +24,6 @@ module.exports = {
           md: { max: "1050px" }, 
           sm: { max: "550px" },
           xs: {max:"475px"},
-          // sm: '640px',
-          // md: '768px',
-          // lg: '1024px',
-          // xl: '1280px',
-          // 2xl: '1536px',
         },
         // next
         fontFamily: {
@@ -38,14 +33,14 @@ module.exports = {
           adelia: ["ADELIA", "cursive"],
           gotham: ['Gotham', 'sans-serif'],
           newyork: ['NewYork', 'sans-serif'],
-          // newyork:["New York", ]
         },  
         // next
         animation: {
           ["infinite-slider"]: "infiniteSlider 20s linear infinite",
+          "spin-around": "spin-around calc(var(--speed) * 2) infinite linear",
+          slide: "slide var(--speed) ease-in-out infinite alternate",
         },
         // next
-
         keyframes: {
           infiniteSlider: {
             "0%": { transform: "translateX(0)" },
@@ -53,7 +48,26 @@ module.exports = {
               transform: "translateX(calc(-100px * 5))",
             },
           },
-        },
+          "spin-around": {
+            "0%": {
+              transform: "translateZ(0) rotate(0)",
+            },
+            "15%, 35%": {
+              transform: "translateZ(0) rotate(90deg)",
+            },
+            "65%, 85%": {
+              transform: "translateZ(0) rotate(270deg)",
+            },
+            "100%": {
+              transform: "translateZ(0) rotate(360deg)",
+            },
+          },
+          slide: {
+            to: {
+              transform: "translate(calc(100cqw - 100%), 0)",
+            },
+          },
+    },
     // next
 
        
@@ -72,3 +86,14 @@ module.exports = {
 //     inter: ['Inter', 'sans-serif'],
 //     caveat: ['Caveat', 'cursive'],
 // },
+
+
+
+
+
+
+
+
+
+
+
