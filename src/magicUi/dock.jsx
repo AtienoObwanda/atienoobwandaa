@@ -7,7 +7,7 @@ const DEFAULT_DISTANCE = 140;
 
 const dockVariants = (className) =>
   [
-    "mx-auto w-max mt-8 h-full p-2 flex-row items-end gap-4 rounded-2xl ",
+    "mx-auto w-12 mt-8 h-full p-2 flex-row items-end gap-4 rounded-2xl ",
     className,
   ]
     .filter(Boolean)
