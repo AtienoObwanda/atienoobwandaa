@@ -16,8 +16,7 @@ const App = () => {
 <div className="ml-[18em] pt-[10em] md:ml-[120px]">
 <Hero/>
 <About/>
-{/* <Skills/> */}
-<Projects/>
+{/* <Projects/> */}
 
 <GitHub/>
 <Blogs/>

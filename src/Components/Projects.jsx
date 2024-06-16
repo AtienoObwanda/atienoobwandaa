@@ -15,7 +15,7 @@ import {TbWorldWww} from 'react-icons/tb'
 import { FaGithubSquare } from 'react-icons/fa'; // For Font Awesome Icons
 import {TfiStatsUp} from 'react-icons/tfi'
 
-
+import BorderBeam from '../magicUi/border-beam'
 
 
 const Projects = () => {
@@ -121,11 +121,13 @@ const Projects = () => {
             </span>
            </a>
           </Tooltip>
-    
+
         </div>
       </CardBody>
       <CardFooter className="pt-3">
       </CardFooter>
+      <BorderBeam size={250} duration={12} delay={9} />
+
       </Card>
     ))}
 

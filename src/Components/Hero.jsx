@@ -2,6 +2,7 @@ import React from 'react'
 import {BiSolidDownload} from 'react-icons/bi'
 import TypingAnimation from "../magicUi/typing"
 // import resume from "../assets/MillicentAtieno.pdf";
+import Circle from './Circle'
 
 
 const Hero = () => {
@@ -19,9 +20,9 @@ const Hero = () => {
               <br></br>
           </h1>
             {/* sm */}
-            <div className="hidden md:flex mr-8 md:mt-8">
-                      <img src="https://res.cloudinary.com/dyiuol5sx/image/upload/v1671113695/personal/me_t1hopq.jpg" alt="Millicent A Obwanda" 
-                        className="rounded-full h-1/2 w-1/2 hover:border-[4px] border-orange"/>
+            <div className="hidden md:flex md:mt-8">
+            <Circle />
+
                   </div>
             {/* text */}
               <h6 className='text-xl	text-dark dark:text-white font-gotham leading-normal mt-[1.5em] md:pr-2'>
@@ -61,9 +62,10 @@ const Hero = () => {
         </div>
 
         <div className="md:hidden p-4 w-1/2 pl-[15em]">
-        <img src="https://res.cloudinary.com/dyiuol5sx/image/upload/v1671113695/personal/me_t1hopq.jpg" alt="Millicent A Obwanda" 
+        <Circle />
+        {/* <img src="https://res.cloudinary.com/dyiuol5sx/image/upload/v1671113695/personal/me_t1hopq.jpg" alt="Millicent A Obwanda" 
         className="rounded-full h-[24em] w-[24em] hover:border-[4px] border-orange md:h-[16em] md:w-[20em]"
-        />
+        /> */}
 
         </div>
     </div>
