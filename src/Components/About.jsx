@@ -1,6 +1,35 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
+import IconCloud from '../magicUi/IconCloud'
 
+const slugs = [
+  "typescript",
+  "javascript",
+  "dart",
+  "java",
+  "react",
+  "flutter",
+  "android",
+  "html5",
+  "css3",
+  "nodedotjs",
+  "express",
+  "nextdotjs",
+  "amazonaws",
+  "postgresql",
+  "firebase",
+  "nginx",
+  "vercel",
+  "testinglibrary",
+  "docker",
+  "git",
+  "jira",
+  "github",
+  "gitlab",
+  "visualstudiocode",
+  "figma",
+];
+ 
 const About = () => {
   return (
     <div className="mt-[6em] mb-[6em] ">
@@ -32,91 +61,11 @@ const About = () => {
           {/* Skills */}
 <div className="mt-12">
 <h1 className='mb-6 text-3xl text-left text-dark dark:text-white font-newyork leading-bold mb-2 sm:text-4xl'>Technical Proficiencies: </h1>
-{/* Languages */}
-<p>
-<div className="flex flex-row md:flex-row font-gotham">
-  <span className='p-2'>Languages: </span>
-  <div className="flex flex-row md:flex-row">
-    <div className="ml-2 p-2 flex justify-center mb-6 md:mb-0"> 
-   <span className="text-sm p-2 text-white bg-orange rounded-full"> Python
-    </span> 
-    <span className="ml-2 text-sm p-2 text-white bg-orange rounded-full"> Javascript
-    </span>
-    </div>
-</div>
-</div>
-
-</p>
-
-{/* Frameworks */}
-<p>
-<div className="flex flex-row md:flex-row">
-  <span className='p-2'>Frameworks: </span>
-  <div className="flex flex-row md:flex-row">
-    <div className="ml-2 p-2 flex justify-center mb-6 md:mb-0"> 
-   <span className="text-sm p-2 text-white bg-orange rounded-full"> React
-    </span> 
-    <span className="ml-2 text-sm p-2 text-white bg-orange rounded-full"> Django
-    </span>
-    </div>
-</div>
-</div>
-
-</p>
 
 {/* Cloud */}
-<p>
-<div className="flex flex-row md:flex-row">
-  <span className='p-2'>Cloud Platforms: </span>
-  <div className="flex flex-row md:flex-row">
-    <div className="ml-2 p-2 flex justify-center mb-6 md:mb-0"> 
-   <span className="text-sm p-2 text-white bg-orange rounded-full"> AWS
-    </span> 
-    <span className="ml-2 text-sm p-2 text-white bg-orange rounded-full"> Azure
-    </span>
+<div className="relative flex h-full w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg border bg-background px-20 pb-20 pt-8 ">
+      <IconCloud iconSlugs={slugs} />
     </div>
-</div>
-</div>
-
-</p>
-
-{/* Tools */}
-<p>
-<div className="flex flex-row md:flex-row">
-  <span className='p-2'>Tools: </span>
-  <div className="flex flex-row md:flex-row">
-    <div className="ml-2 p-2 flex justify-center mb-6 md:mb-0"> 
-   <span className="text-sm p-2 text-white bg-orange rounded-full"> Docker
-    </span> 
-    <span className="ml-2 text-sm p-2 text-white bg-orange rounded-full"> Kubernetes
-    </span>
-    </div>
-</div>
-</div>
-
-</p>
-{/* Others */}
-<p>
-<div className="flex flex-row md:flex-row">
-  <span className='p-2'>Other: </span>
-  <div className="flex flex-row md:flex-row">
-    <div className="ml-2 p-2 flex justify-center mb-6 md:mb-0 sm:flex-col"> 
-   <span className="text-sm p-2 text-white bg-orange rounded-full sm:mt-2"> RESTful APIs
-    </span> 
-    <span className="ml-2 text-sm p-2 text-white bg-orange rounded-full sm:mt-4"> Microservices Architecture
-    </span>
-    <span className="ml-2 text-sm p-2 text-white bg-orange rounded-full sm:mt-4"> Agile Development
-    </span>
-    <span className="ml-2 text-sm p-2 text-white bg-orange rounded-full sm:mt-4"> GitHub
-    </span>
-    <span className="ml-2 text-sm p-2 text-white bg-orange rounded-full sm:mt-4"> GitLab
-    </span>
-    
-    </div>
-</div>
-</div>
-
-</p>
 
 
 </div>
